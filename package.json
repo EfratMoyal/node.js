@@ -1,14 +1,11 @@
 {
-  "name": "index",
+  "name": "node-express-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "description": "Node.js Express REST API for courses, students and registrations",
   "dependencies": {
     "express": "^5.2.1"
   }
